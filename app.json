@@ -1,0 +1,21 @@
+{
+  "name": "Example Form Webhook for Slack in Node.js",
+  "description": "A sample Node.js app for processing Zesty webhooks into Slack notifications",
+  "repository": "https://github.com/zesty-io/example-form-webhook-slack-node-js",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["zesty", "slack", "webhook"],
+  "env": {
+    "PORT": {
+      "description": "Port to serve on",
+      "value": "80"
+    },
+    "SLACK_WEBHOOK_URL": {
+      "description": "Your Slack URL for the Incoming Webhooks API ( see https://api.slack.com/incoming-webhooks )",
+      "value": "https://hooks.slack.com/services/THE_REST_OF_YOUR_SLACK_HOOK_URL_HERE"
+    },
+    "SLACK_CHANNEL": {
+      "description": "The channel you want your notification to appear in.",
+      "value": "#general"
+    }
+  }
+}

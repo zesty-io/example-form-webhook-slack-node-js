@@ -1,0 +1,26 @@
+{
+  "name": "example-form-webhook-slack-node-js",
+  "version": "1.0.0",
+  "description": "A sample Node.js app for processing Zesty webhooks into Slack notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.3",
+    "moment-timezone": "^0.5.4",
+    "slack-node": "^0.2.0"
+  },
+  "engines": {
+    "node": "5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zesty-io/example-form-webhook-slack-node-js"
+  },
+  "keywords": [],
+  "author": "Andy Fleming",
+  "license": "MIT"
+}
