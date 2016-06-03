@@ -1,5 +1,5 @@
 {
-  "name": "Example Form Webhook for Slack in Node.js",
+  "name": "Zesty Form Slack Notifier",
   "description": "A sample Node.js app for processing Zesty webhooks into Slack notifications",
   "repository": "https://github.com/zesty-io/example-form-webhook-slack-node-js",
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
