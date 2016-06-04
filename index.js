@@ -10,7 +10,7 @@ const app = express()
 const bodyParser = require('body-parser')
 const sendFormToSlack = require('./src/sendFormToSlack')
 
-app.set('port', (process.env.PORT || 80))
+app.set('port', (process.env.PORT || 80)) // set in step 3 when you created your heroku app
 
 app.use(bodyParser.urlencoded({
     extended: true
@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 
 // Optional endpoint included to verify service is online
 app.get('/', function(request, response) {
-    response.send('Service online')
+    response.send('Service online') // this will show up if you go to your base URL
 })
 
 // Endpoint for webhook target
